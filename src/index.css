@@ -5,9 +5,76 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* ここから */
+  background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* .App{
+  background-image: url(https://source.unsplash.com/random);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+} */
+
+
+
+.search-area{
+  
+  background: rgb(94, 179, 213);
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+ 
+  opacity: 0.9;
+  align-items: center;
+ 
+  justify-content:center;
+  
+ 
+
+
+}
+.input-bar{
+  border: none;
+  outline:none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  font-size:105%;
+  width: calc(100% - 100px);
+
+}
+button{
+  margin:0.5em;
+    border-radius: 50%;
+    border:none;
+    height: 2.5em;
+    width: 2.5em;
+}
+h1.temp{
+  margin:0;
+  margin-bottom: 10px;
+}
+.weather-description{
+  display:flex;
+  align-items: center;
+}
+.weather-icon-img{
+  
+  width: 100px;
+  height: auto;
+  margin-left: 30px;
 }
